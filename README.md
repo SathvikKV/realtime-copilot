@@ -20,6 +20,8 @@ Realtime Copilot acts as an intelligent companion for your desktop activity. It 
 - Respond via chat or voice (TTS)
 - Export session summaries and structured reports
 
+
+
 ---
 
 ## Features Implemented
@@ -35,6 +37,22 @@ Realtime Copilot acts as an intelligent companion for your desktop activity. It 
 | **Context Window** | Maintains rolling OCR + Vision + Audio transcript memory |
 | **Suggested Actions** | Worker infers contextually relevant next steps and sends them to UI |
 | **Session Export** | (In progress) Generates summaries and structured logs |
+
+---
+
+## Application Previews
+
+### 1. Default Application View
+This is the default dashboard view when the user starts the Realtime Copilot session.
+
+![Default Application Screenshot](images/app_default.png)
+
+---
+
+### 2. Active Session — Screen Preview + Chat
+Below shows an active Realtime Copilot session with a live screen preview and AI chat responses.
+
+![Active Session Screenshot](images/app_chat.png)
 
 ---
 
@@ -59,6 +77,11 @@ The system consists of three core components:
 - Performs vision and OCR reasoning using OpenAI APIs
 - Subscribes to screen audio and transcribes it using Whisper
 - Sends context updates, structured answers, and suggested actions back to the client
+
+
+The full architecture showing connections between the user interface, backend, AI worker, and infrastructure.
+
+![Architecture Diagram](images/realtime_copilot_architecture.png)
 
 ---
 
