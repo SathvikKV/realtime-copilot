@@ -1,0 +1,22 @@
+{
+  "name": "realtime-copilot-worker",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/agent.ts",
+    "start": "node dist/agent.js",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@livekit/rtc-node": "^0.13.20",
+    "dotenv": "^16.6.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.104.0",
+    "sharp": "^0.33.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.21",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
