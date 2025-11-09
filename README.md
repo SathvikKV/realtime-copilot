@@ -157,21 +157,21 @@ docker run --rm -it `
   livekit/livekit-server `
   --dev --bind 0.0.0.0
 ```
-2. Start the Express API
+### 2. Start the Express API
 ``` bash
 cd server
 npm install
 npm run dev
 ```
 Server running at http://localhost:5050
-3. Start the Worker
+### 3. Start the Worker
 ```bash
 cd worker
 npm install
 npm run dev
 ```
 # Worker connected to LiveKit
-4. Start the Frontend
+### 4. Start the Frontend
 ```bash
 cd realtime-copilot-ui/client
 npm install
