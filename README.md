@@ -81,7 +81,7 @@ The system consists of three core components:
 
 The full architecture showing connections between the user interface, backend, AI worker, and infrastructure.
 
-![Architecture Diagram](images/architecture.PNG)
+![Architecture Diagram](images/architecture.png)
 
 ---
 
