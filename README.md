@@ -163,7 +163,7 @@ cd server
 npm install
 npm run dev
 ```
-# Server running at http://localhost:5050
+Server running at http://localhost:5050
 3. Start the Worker
 ```bash
 cd worker
@@ -177,7 +177,7 @@ cd realtime-copilot-ui/client
 npm install
 npm run dev
 ```
-# Open http://localhost:3000
+Open http://localhost:3000
 
 ## Usage Flow
 
