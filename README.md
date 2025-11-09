@@ -45,14 +45,14 @@ Realtime Copilot acts as an intelligent companion for your desktop activity. It 
 ### 1. Default Application View
 This is the default dashboard view when the user starts the Realtime Copilot session.
 
-![Default Application Screenshot](images/app_default.png)
+![Default Application Screenshot](images/default.PNG)
 
 ---
 
 ### 2. Active Session — Screen Preview + Chat
 Below shows an active Realtime Copilot session with a live screen preview and AI chat responses.
 
-![Active Session Screenshot](images/app_chat.png)
+![Active Session Screenshot](images/second.PNG)
 
 ---
 
@@ -81,7 +81,7 @@ The system consists of three core components:
 
 The full architecture showing connections between the user interface, backend, AI worker, and infrastructure.
 
-![Architecture Diagram](images/realtime_copilot_architecture.png)
+![Architecture Diagram](images/architecture.PNG)
 
 ---
 
