@@ -156,7 +156,7 @@ LIVEKIT_API_KEY=devkey
 LIVEKIT_API_SECRET=secret
 DEEPGRAM_API_KEY=<optional>
 ELEVENLABS_API_KEY=<optional>
-``` bash
+``` 
 
 
 ### Worker (`worker/.env`)
@@ -166,7 +166,7 @@ ROOM=room-1234
 IDENTITY=copilot-worker
 OPENAI_API_KEY=<your-openai-key>
 TOKEN_ENDPOINT=http://127.0.0.1:5050/api/rt/token
-```
+``` 
 
 ---
 
@@ -180,6 +180,7 @@ docker run --rm -it `
   livekit/livekit-server `
   --dev --bind 0.0.0.0
 ```
+
 ### 2. Start the Express API
 ``` bash
 cd server
